@@ -1,0 +1,15 @@
+(cl:defpackage robot_navigation-srv
+  (:use )
+  (:export
+   "GAREQUEST"
+   "<GAREQUEST-REQUEST>"
+   "GAREQUEST-REQUEST"
+   "<GAREQUEST-RESPONSE>"
+   "GAREQUEST-RESPONSE"
+   "REPLANPATH"
+   "<REPLANPATH-REQUEST>"
+   "REPLANPATH-REQUEST"
+   "<REPLANPATH-RESPONSE>"
+   "REPLANPATH-RESPONSE"
+  ))
+

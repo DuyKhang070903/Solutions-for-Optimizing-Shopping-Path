@@ -1,0 +1,2 @@
+amcl_pkg:create_map:kinematic:launch_pkg:rf2o_laser_odometry:robot/robot_bringup:robot/robot_update:robot_gui:robot_navigation:robot_pose_ekf/robot_pose_ekf:robot_pose_publisher:robot_simulate:ros_opencv/ros_opencv:rplidar_ros:slam_gmapping/gmapping:slam_gmapping/slam_gmapping:teleop_keyboard
+-DCATKIN_DEVEL_PREFIX=/home/jetson/thesisAutonomous_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jetson/thesisAutonomous_ws/install -G Unix Makefiles

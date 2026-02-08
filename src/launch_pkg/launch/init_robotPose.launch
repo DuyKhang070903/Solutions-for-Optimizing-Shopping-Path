@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="launch_pkg" type="init_robotPose.py" name="initial_pose_node" output="screen"/>
+</launch>

@@ -1,0 +1,27 @@
+{
+	"BUILD_DIR" : "/home/jetson/thesisAutonomous_ws/build/robot_gui/robot_gui_node_autogen",
+	"CMAKE_BINARY_DIR" : "/home/jetson/thesisAutonomous_ws/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/jetson/thesisAutonomous_ws/build/robot_gui",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/jetson/thesisAutonomous_ws/src/robot_gui",
+	"CMAKE_SOURCE_DIR" : "/home/jetson/thesisAutonomous_ws/src",
+	"INCLUDE_DIR" : "/home/jetson/thesisAutonomous_ws/build/robot_gui/robot_gui_node_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/jetson/thesisAutonomous_ws/src/robot_gui/resource/my_gui_icon.png",
+		"/home/jetson/thesisAutonomous_ws/src/robot_gui/resource/Clear.png",
+		"/home/jetson/thesisAutonomous_ws/src/robot_gui/resource/Loading.gif",
+		"/home/jetson/thesisAutonomous_ws/src/robot_gui/resource/Checkout_Counter.png",
+		"/home/jetson/thesisAutonomous_ws/src/robot_gui/resource/installing_updates.gif",
+		"/home/jetson/thesisAutonomous_ws/src/robot_gui/resource/Search_Icon.png"
+	],
+	"LOCK_FILE" : "/home/jetson/thesisAutonomous_ws/build/robot_gui/CMakeFiles/robot_gui_node_autogen.dir/AutoRcc_resource_6WJNPILU4A_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resource" ],
+	"OUTPUT_CHECKSUM" : "6WJNPILU4A",
+	"OUTPUT_NAME" : "qrc_resource.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/jetson/thesisAutonomous_ws/build/robot_gui/CMakeFiles/robot_gui_node_autogen.dir/AutoRcc_resource_6WJNPILU4A_Used.txt",
+	"SOURCE" : "/home/jetson/thesisAutonomous_ws/src/robot_gui/resource/resource.qrc",
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,7 @@
+<launch>
+
+    <!-- Node chạy mã Python QR code scanner -->
+    <node name="qr_code_scanner" pkg="ros_opencv" type="qr_code_scanner.py" output="screen">
+        <param name="qr_code_topic" value="/qr_code/data" />
+    </node>
+</launch>

@@ -1,0 +1,9 @@
+# Request: An array of strings
+string start
+string[] destinations
+
+---
+# Response: An array of strings
+string[] GA_result
+string[] Products
+int32[] Products_indices

@@ -1,0 +1,8 @@
+prefix=/home/jetson/thesisAutonomous_ws/install
+
+Name: robot_gui
+Description: Description of robot_gui
+Version: 0.0.0
+Cflags: -I${prefix}/include -I/usr/include/aarch64-linux-gnu/qt5/ -I/usr/include/aarch64-linux-gnu/qt5/QtWidgets -I/usr/include/aarch64-linux-gnu/qt5/QtGui -I/usr/include/aarch64-linux-gnu/qt5/QtCore -I/usr/lib/aarch64-linux-gnu/qt5//mkspecs/linux-g++ -I/usr/include/aarch64-linux-gnu/qt5/QtPrintSupport
+Libs: -L${prefix}/lib -lrobot_gui /usr/lib/aarch64-linux-gnu/libQt5Widgets.so.5.12.8 /usr/lib/aarch64-linux-gnu/libQt5PrintSupport.so.5.12.8
+Requires: roscpp std_msgs rviz robot_navigation

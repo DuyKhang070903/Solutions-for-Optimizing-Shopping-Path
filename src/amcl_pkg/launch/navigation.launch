@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="map_file" default="$(find create_map)/map/map_real_final.yaml"/>
+  <!-- Map server -->
+  <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/>
+  <!-- AMCL -->
+  <include file="$(find amcl_pkg)/launch/amcl.launch"/>
+</launch>
+
+
+
+
+
+
+
+
+  

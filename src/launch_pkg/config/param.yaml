@@ -1,0 +1,43 @@
+#------ File launch Path ------#
+path_firstWork  : /home/jetson/thesisAutonomous_ws/src/launch_pkg/launch/firstWork.launch # clean log
+
+# -
+path_serial       : /home/jetson/thesisAutonomous_ws/src/robot/robot_bringup/launch/robot.launch
+
+# -
+path_lidar     : /home/jetson/thesisAutonomous_ws/src/rplidar_ros/launch/rplidar_a1.launch
+
+# --
+path_amcl_map : /home/jetson/thesisAutonomous_ws/src/amcl_pkg/launch/navigation.launch
+
+# -- 
+path_ekf: /home/jetson/thesisAutonomous_ws/src/launch_pkg/launch/robotpose_ekf.launch
+
+# --
+path_init_pose : /home/jetson/thesisAutonomous_ws/src/launch_pkg/launch/init_robotPose.launch
+
+# --
+path_slam: /home/jetson/thesisAutonomous_ws/src/create_map/launch/run_gmapping.launch
+
+# --
+path_navigation : /home/jetson/thesisAutonomous_ws/src/robot_navigation/launch/robot_navigation.launch
+
+# -- 
+path_robot_gui  : /home/jetson/thesisAutonomous_ws/src/robot_gui/launch/robot_gui.launch
+
+# -- 
+path_kinematic  : /home/jetson/thesisAutonomous_ws/src/kinematic/launch/kinematic.launch
+
+# -- 
+path_pub_wheel  : /home/jetson/thesisAutonomous_ws/src/kinematic/launch/pub_wheel.launch
+
+#--
+path_odom_mb : /home/jetson/thesisAutonomous_ws/src/kinematic/launch/get_odom_mb.launch
+
+# -- 
+path_rf2o  : /home/jetson/thesisAutonomous_ws/src/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch
+
+# -- 
+path_rviz : /home/jetson/thesisAutonomous_ws/src/launch_pkg/launch/rviz_navigation.launch
+
+

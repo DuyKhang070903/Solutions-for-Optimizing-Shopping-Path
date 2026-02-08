@@ -1,0 +1,8 @@
+prefix=/home/jetson/thesisAutonomous_ws/devel
+
+Name: teleop_keyboard
+Description: Description of teleop_keyboard
+Version: 0.0.0
+Cflags: -I/home/jetson/thesisAutonomous_ws/src/teleop_keyboard/src
+Libs: -L${prefix}/lib 
+Requires: roscpp geometry_msgs

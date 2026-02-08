@@ -1,0 +1,10 @@
+(cl:defpackage robot_update-srv
+  (:use )
+  (:export
+   "UPDATEFWSIGNAL"
+   "<UPDATEFWSIGNAL-REQUEST>"
+   "UPDATEFWSIGNAL-REQUEST"
+   "<UPDATEFWSIGNAL-RESPONSE>"
+   "UPDATEFWSIGNAL-RESPONSE"
+  ))
+

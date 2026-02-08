@@ -1,0 +1,8 @@
+prefix=/home/jetson/thesisAutonomous_ws/devel
+
+Name: create_map
+Description: Description of create_map
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

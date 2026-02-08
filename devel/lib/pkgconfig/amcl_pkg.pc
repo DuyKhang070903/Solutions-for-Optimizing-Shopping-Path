@@ -1,0 +1,8 @@
+prefix=/home/jetson/thesisAutonomous_ws/devel
+
+Name: amcl_pkg
+Description: Description of amcl_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

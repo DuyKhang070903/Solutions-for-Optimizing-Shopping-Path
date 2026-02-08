@@ -1,0 +1,3 @@
+<launch>
+	<node pkg="kinematic" type="kinematic_v2.py" name="pubwheel_node" output="screen"> </node>
+</launch>

@@ -1,0 +1,29 @@
+map_update_interval: 2.0 # Thòi gian update map
+maxUrange: 8.0           # Khoảng cách sử dụng tốt nhất của lidar
+sigma: 0.05              # Sigma được sử dụng bởi greedy endpoint matching
+kernelSize: 1            # Kernel cho phép tìm kiếm sự tương đọng
+lstep: 0.05              # Bước dịch chuyển tối ưu theo tọa độ
+astep: 0.05              # Bước dịch chuyển tối ưu theo rotation
+iterations: 5            # Số lần lặp của scan matcher
+lsigma: 0.075            # sigma beam sử dụng cho likelihood computation
+ogain: 3.0               # gain được sử dụng để đánh giá likelihood, làm mềm resampling effects
+lskip: 0                 # Số lượng beam của laser bị bỏ qua
+minimumScore: 100.0      # Ngưỡng nhỏ nhất để xem xét đầu ra là tốt
+srr: 0.1                 # odom lỗi trong translation
+srt: 0.2                 # odom lỗi trong 
+str: 0.1
+stt: 0.2
+linearUpdate: 0.3        # Xử lý scan mỗi lần robot translation
+angularUpdate: 0.2       # Xử lý scan mỗi lần robot rotation
+temporalUpdate: 0.5      # xử lý scan nếu quá thời gian
+resampleThreshold: 0.5   # Ngưỡng resampling Neff
+particles: 50            # Số lượng particles của bộ lọc
+xmin: -6.0              # kích thước map bắt đầu
+ymin: -6.0
+xmax: 7.0               # kích thước map ban đầu
+ymax: 7.0
+delta: 0.05              # độ phan giải của map
+llsamplerange: 0.01      # Khoảng lấy mẫu translation cho likelihood
+llsamplestep: 0.01       # bước lấy mẫu translation cho likelihood 
+lasamplerange: 0.005     # Khoảng lấy mẫu rotation cho likelihood
+lasamplestep: 0.005      # Bước lấy mẫu rotation cho likelihood

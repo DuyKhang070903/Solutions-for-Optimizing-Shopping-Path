@@ -1,0 +1,39 @@
+<launch>
+    <!-- Launch robot core-->
+    <include file="$(find turtlebot3_bringup)/launch/turtlebot3_core.launch"/>
+
+    <!-- Launch lidar a1m8-->
+    <include file="$(find rplidar_ros)/launch/rplidar.launch"/>
+
+    <!-- tf static-->
+    <include file="$(find launch_pkg)/launch/robot_tfstatic.launch"/>    
+
+    <!-- wheel odom -->
+    <include file="$(find wheel_odom)/launch/kinematic.launch"/>
+    <!-- <include file="$(find wheel_odom)/launch/wheel_odom.launch"/> -->
+
+    <!-- imu odom -->
+    <include file="$(find imu_odom)/launch/imu_odom.launch"/>
+    <!-- <include file="$(find ros_imu_bno055)/launch/imu.launch"/> -->
+
+    <!-- tf odom->basefootprint -->
+    <include file="$(find launch_pkg)/launch/robotpose_ekf.launch"/>
+
+    <!-- localization -->
+    <!-- Map server -->
+    <arg name="map_file" default="/home/duykhang0709/thesisAutonomous_ws/create_map/map/map1.yaml"/>
+    <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/>
+
+    <!-- AMCL -->
+    <include file="$(find turtlebot3_navigation)/launch/amcl.launch"/>
+
+    <!-- movebase ~ option -->
+    <!-- <include file="$(find turtlebot3_navigation)/launch/turtlebot3_movebase.launch"/> -->
+
+    <!-- rviz -->
+    <include file="$(find launch_pkg)/launch/rviz_navigation.launch"/>    
+
+    <!-- rviz click 2d -->
+    <include file="$(find wheel_odom)/launch/convert_rviz2d.launch"/>    
+
+</launch>

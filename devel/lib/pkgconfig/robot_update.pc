@@ -1,0 +1,8 @@
+prefix=/home/jetson/thesisAutonomous_ws/devel
+
+Name: robot_update
+Description: Description of robot_update
+Version: 0.0.0
+Cflags: -I/home/jetson/thesisAutonomous_ws/devel/include -I/home/jetson/thesisAutonomous_ws/src/robot/robot_update/include
+Libs: -L${prefix}/lib -lrobot_update
+Requires: roscpp rospy std_msgs message_runtime

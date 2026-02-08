@@ -1,0 +1,8 @@
+prefix=/home/jetson/thesisAutonomous_ws/devel
+
+Name: robot_navigation
+Description: Description of robot_navigation
+Version: 0.0.1
+Cflags: -I/home/jetson/thesisAutonomous_ws/devel/include -I/home/jetson/thesisAutonomous_ws/src/robot_navigation/include
+Libs: -L${prefix}/lib -ldwa_planner_lib -la_star_lib -lhybrid_local_planner
+Requires: geometry_msgs nav_msgs roscpp rospy std_msgs tf message_runtime base_local_planner dynamic_reconfigure pluginlib sensor_msgs tf2 tf2_ros

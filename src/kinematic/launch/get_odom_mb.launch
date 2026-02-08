@@ -1,0 +1,3 @@
+<launch>
+	<node pkg="kinematic" type="get_odom_movebase.py" name="odom_movebase_node" output="screen"> </node>
+</launch>
